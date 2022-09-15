@@ -49,7 +49,7 @@ const calculate = function() {
 
    
 
-  // *EVENTS
+  //* BTN EVENTS
   btnaddbag.addEventListener("click", () => {
     counterbag++;
     price1 = 25.99 * counterbag
@@ -70,6 +70,7 @@ const calculate = function() {
     calculate();
          
   })
+
   remove1.addEventListener("click", () => {
     document.querySelector(".product1").setAttribute("class","hidden");
     price1 = 0;
@@ -128,6 +129,7 @@ const calculate = function() {
     calculate();
 
   })
+
   btnminusclock.addEventListener("click", () => {
     if(counterclock<=1) {
         counterclock = 1
@@ -139,6 +141,7 @@ const calculate = function() {
      productclock.innerText = `$${Number(price3.toFixed(2))}`;
     calculate();    
   })
+
   remove3.addEventListener("click", () => {
     document.querySelector(".product3").setAttribute("class", "hidden");
     price3 = 0;
