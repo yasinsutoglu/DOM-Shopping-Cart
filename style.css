@@ -27,7 +27,7 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
     
 }
 
-/*LEFT COLUMN*/
+
 
  /*RIGHT COLUMN*/
 .col-right{
@@ -42,13 +42,7 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
 .hidden {
     display: none;
 }
-/* .product1{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "image price"
-                        "image counter";
-    grid-gap:.5rem;
-} */
+
 .price{
     grid-area: price;
 }
@@ -93,14 +87,7 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
     height:12rem;
     border-radius:15px;
 }
-/* .product2{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "image price"
-                        "image counter";
-    grid-gap:.5rem;
-    margin-top: 1rem;
-} */
+
 .product3, .product2, .product1 {
     display: flex;
     justify-content: space-around;
@@ -165,11 +152,7 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
 }
 /*Responsive Design*/
 @media screen and (max-width:950px){
-    .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .col-left , .col-right {
+    .col-right {
         width: 90%;
         margin: auto;
     }
