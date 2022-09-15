@@ -27,11 +27,9 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
     
 }
 
-
-
- /*RIGHT COLUMN*/
+/*RIGHT COLUMN*/
 .col-right{
-    background-color: #EEEEEE;
+    background-color: teal;
     padding: 1.5rem;
     border-radius: 1.5rem;
     height:auto;
@@ -57,7 +55,7 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
     opacity: 0.8;
 }
 .counter{
-    border: 1px solid gray;
+    border: 1px solid red;
     border-radius: 5px;
     grid-area: counter;
     display: flex;
